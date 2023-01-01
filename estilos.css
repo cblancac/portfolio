@@ -103,7 +103,7 @@ header{
 }
 
 .red-social{
-    height: 60px;
+    height: 20px;
     background-color: #F2F2F2;
     border-radius: 10px;
 }
@@ -115,7 +115,7 @@ footer{
     justify-content: flex-start;
     align-items: center;
     color: #F2F2F2;
-    height: 50px;
+    height: 250px;
 }
 .contacto{
     width: 30%;
