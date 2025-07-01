@@ -19,14 +19,36 @@ a {
 }
 
 /* Header */
-header {
-    background-color: #dff7f0;
-    color: #111;
-    padding: 15px 25px;
-    font-size: 1rem;
-    font-weight: bold;
-    box-shadow: 0 2px 4px rgba(0,0,0,0.1);
-}
+.site-header {
+        position: sticky;
+        top: 0;
+        width: 100%;
+        background-color: #dff7f0;
+        color: #111;
+        padding: 1rem 2rem;
+        box-shadow: 0 2px 6px rgba(0,0,0,0.1);
+        z-index: 1000;
+    }
+    
+    .site-header .container {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    
+    .logo {
+        font-size: 1.2rem;
+        font-weight: 600;
+        color: #111;
+        display: flex;
+        align-items: center;
+        gap: 0.5rem;
+    }
+    
+    .logo::before {
+        content: '✅';
+        font-size: 1.1rem;
+    }
 
 /* Navigation Bar */
 nav {
